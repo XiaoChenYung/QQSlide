@@ -13,6 +13,7 @@
 		EDEFC1FB1C1AA29500476182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEFC1F91C1AA29500476182 /* Main.storyboard */; };
 		EDEFC1FD1C1AA29500476182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEFC1FC1C1AA29500476182 /* Assets.xcassets */; };
 		EDEFC2001C1AA29500476182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEFC1FE1C1AA29500476182 /* LaunchScreen.storyboard */; };
+		EDEFC2091C1AA2DD00476182 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEFC2081C1AA2DD00476182 /* UIView+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EDEFC1FC1C1AA29500476182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDEFC1FF1C1AA29500476182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDEFC2011C1AA29500476182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEFC2071C1AA2DD00476182 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		EDEFC2081C1AA2DD00476182 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		EDEFC1EF1C1AA29500476182 /* QQSlide */ = {
 			isa = PBXGroup;
 			children = (
+				EDEFC2071C1AA2DD00476182 /* UIView+Additions.h */,
+				EDEFC2081C1AA2DD00476182 /* UIView+Additions.m */,
 				EDEFC1F31C1AA29500476182 /* AppDelegate.h */,
 				EDEFC1F41C1AA29500476182 /* AppDelegate.m */,
 				EDEFC1F61C1AA29500476182 /* ViewController.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEFC2091C1AA2DD00476182 /* UIView+Additions.m in Sources */,
 				EDEFC1F81C1AA29500476182 /* ViewController.m in Sources */,
 				EDEFC1F51C1AA29500476182 /* AppDelegate.m in Sources */,
 				EDEFC1F21C1AA29500476182 /* main.m in Sources */,
